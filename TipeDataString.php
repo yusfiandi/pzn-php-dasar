@@ -8,6 +8,8 @@
 
   echo 'Name : ';
   echo 'Yusfiandi';
+  //  Menerapkan escape sequence di bagian single quote
+  echo "\n";
 
   // Double Quote - Kutip 2 (")
   // Kelebihan dari double quote adalah bisa melakukan escape sequence
