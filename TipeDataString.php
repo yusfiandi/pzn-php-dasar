@@ -35,4 +35,18 @@
   echo "\t Halo \t Selamat \t Pagi";
   echo "\n";
  
+  // Multiline string 
+  // Dengan menggunakan fitur : Heredoc dan Nowdoc
+
+  // Heredoc
+  // Fitur untuk membuat String yang panjang. Sehingga kita tidak perlu manual.
+  // Melakukan enter, tab, dan yang lainnnya secara manual.
+  
+  echo <<<YSFI
+  Halo
+  Selamat Pagi
+  Nama Yusfiandi
+  Bisa diPanggil ufi, yusfi, fi
+  YSFI;
+
 ?>
