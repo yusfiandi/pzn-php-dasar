@@ -3,6 +3,11 @@
   // Tipe data String adalah tipe data representasi dari teks
   // String bisa mengandung kosong atau banyak karakter
 
+  // 3 Cara untuk membuat string :
+  // - Single Quote
+  // - Double Quote
+  // - Multiline String (Heredoc dan Nowdoc)
+
   // Single Quote - Kutip 1 (')
   // Membuat string dengan single quote / kutip 1
 
@@ -42,11 +47,27 @@
   // Fitur untuk membuat String yang panjang. Sehingga kita tidak perlu manual.
   // Melakukan enter, tab, dan yang lainnnya secara manual.
   
+  // Heredoc mirip dengan double quote.
+  
   echo <<<YSFI
   Halo
   Selamat Pagi
   Nama Yusfiandi
   Bisa diPanggil ufi, yusfi, fi
+
   YSFI;
+
+  // Nowdoc
+  // Mirip dengan Heredoc bedanya tidak memiliki kemampuan parsing seperti Heredoc atau Double Quote. 
+  
+  // Nowdoc mirip dengan single quote.
+
+  echo <<<'YUSFI'
+  Halo
+  Selamat Pagi
+  Nama Yusfiandi
+  Bisa diPanggil ufi, yusfi, fi
+  
+  YUSFI;
 
 ?>
