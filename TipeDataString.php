@@ -8,7 +8,7 @@
 
   echo 'Name : ';
   echo 'Yusfiandi';
-  //  Menerapkan escape sequence di bagian single quote
+  //  Menerapkan escape sequence di bagian single 
   echo "\n";
 
   // Double Quote - Kutip 2 (")
