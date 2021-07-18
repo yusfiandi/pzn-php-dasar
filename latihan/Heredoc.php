@@ -13,6 +13,7 @@
 
   Adalah gangguan kesehatan mental yang ditandai dengan rasa takut akan diawasi, dihakimi, atau dipermalukan oleh orang lain.
   Fobia sosial juga memiliki nama lain, yaitu: Gangguan kecemasan sosial.
+  
   FobiaSosial;
 
 ?>
