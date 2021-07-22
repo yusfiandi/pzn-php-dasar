@@ -29,9 +29,11 @@
   // Warning: Constant (nama constans yang ada) already defined in (path file) on line 10(dibaris ke berapa error)
 
   // Pemanggilan constant tinggal ketik nama constant (AUTHOR), disaat memanggil nama Constant namanya harus sama. Karena Case Sensitive
+  echo "Author :";
   echo AUTHOR;
   echo "\n";
   
+  echo "Versi : ";
   echo VERSION;
   echo "\n";
 
